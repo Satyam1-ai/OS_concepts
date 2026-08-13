@@ -1,6 +1,13 @@
+# Ignore macOS system files
 .DS_Store
+
+# Ignore compiled executables (files without extensions)
 *
-!*.*
+!*/
 !.gitignore
+!*.cpp
+!*.txt
+
+# Ignore specific development/debug folders
 *.dSYM/
-tempCodeRunnerFile.cpp
+tempCodeRunnerFile*
